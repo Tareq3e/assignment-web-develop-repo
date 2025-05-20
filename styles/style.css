@@ -51,7 +51,7 @@ nav {
 
 /* banner styles */
 .banner{
-  background-image: url('/assets/Hero-bg.png');
+  background-image: url('../assets/Hero-bg.png');
   height: 405px;
   display: flex;
   align-items: center;
@@ -231,7 +231,7 @@ nav {
   
 }
 .support-section{
-  background-image: url('/assets/handshake.jpg');
+  background-image: url('../assets/handshake.jpg');
   width: 706px;
   height: 250px;
   background-position: center;
@@ -299,4 +299,6 @@ nav {
   font-size: 20px;
   text-decoration: none;
 }
-
+html {
+  scroll-behavior: smooth;
+}
